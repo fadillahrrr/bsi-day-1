@@ -1,0 +1,22 @@
+ .card {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+  }
+  
+  .title {
+    color: black;
+  }
+  
+  h3 {
+    color: black;
+  }
+  
+  #cardParent {
+    display: flex;
+    justify-content: space-between;
+  }
