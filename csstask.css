@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d4f5f3;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Par 1 Styles */
+  .par1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .par1 .content {
+    max-width: 600px;
+  }
+  
+  .par1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .par1 p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .par1 .button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .par1 .image img {
+    max-width: 300px;
+    border-radius: 50%;
+  }
+  
+  /* Par 2 Styles */
+  .par2 .button {
+    float: right;
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+  }
+
+  .par2 {
+    text-align: left;
+  }
+  
+  .par2 h2 {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .posts {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .post {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .post p {
+    color: #666;
+  }
+  
+  /* Par 3 Styles */
+  .par3 {
+    text-align: left;
+  }
+  
+  .par3 h2 {
+    margin-bottom: 20px;
+    alig
+  }
+  
+  .par3 #cardParent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .par3 .card {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .par3 .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .par3 .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsif untuk Par3 */
+  @media (max-width: 768px) {
+    .par3 #cardParent {
+      justify-content: center;
+    }
+  
+    .par3 .card {
+      max-width: 100%;
+    }
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }  
